@@ -1,0 +1,43 @@
+{
+  "name": "@sbj42/maze-generator-kruskal",
+  "version": "0.1.0",
+  "description": "A maze generator using a randomized Kruskal's algorithm",
+  "main": "src/kruskal",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha test/test-SetGrid && mocha test/test-algorithm && npm run lint",
+    "benchmark": "node test/benchmark-SetGrid && node test/benchmark-algorithm",
+    "demo": "node test/cli-demo",
+    "webdemo": "node test/web-demo-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbj42/maze-generator-kruskal.git"
+  },
+  "keywords": [
+    "maze-generator",
+    "maze",
+    "dungeon",
+    "labyrinth",
+    "procedural",
+    "kruskals-algorithm"
+  ],
+  "author": "James Clark <jameswclark@gmail.com> (http://arbitraryclark.blogspot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbj42/maze-generator-kruskal/issues"
+  },
+  "homepage": "https://github.com/sbj42/maze-generator-kruskal#readme",
+  "dependencies": {
+    "@sbj42/maze-generator-core": "^0.1.4"
+  },
+  "peerDependencies": {
+    "@sbj42/maze-generator": "^2.0.2"
+  },
+  "devDependencies": {
+    "@sbj42/maze-generator": "^2.0.2",
+    "@sbj42/maze-generator-dev": "^0.1.4",
+    "eslint": "^3.7.1",
+    "random-js": "^1.0.8"
+  }
+}
