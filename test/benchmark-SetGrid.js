@@ -4,11 +4,11 @@ var SetGrid = require('../src/SetGrid');
 
 /*eslint no-console: "off"*/
 /*global console*/
-console.info(new benchmark('SetGrid#constructor', function() {
+console.info(new benchmark('SetGrid constructor', function() {
     new SetGrid(1000, 1000);
 }).run().toString());
 
-console.info(new benchmark('SetGrid#merge1', function() {
+console.info(new benchmark('SetGrid merge1', function() {
     var m = new SetGrid(100, 100);
     for (var y = 0; y < m.height(); y ++) {
         for (var x = 0; x < m.width(); x ++) {
@@ -17,7 +17,7 @@ console.info(new benchmark('SetGrid#merge1', function() {
     }
 }).run().toString());
 
-console.info(new benchmark('SetGrid#merge2', function() {
+console.info(new benchmark('SetGrid merge2', function() {
     var m = new SetGrid(100, 100);
     for (var y = 0; y < m.height(); y ++) {
         for (var x = 0; x < m.width(); x ++) {
@@ -26,7 +26,7 @@ console.info(new benchmark('SetGrid#merge2', function() {
     }
 }).run().toString());
 
-console.info(new benchmark('SetGrid#merge3', function() {
+console.info(new benchmark('SetGrid merge3', function() {
     var size = 100;
     var m = new SetGrid(size, size);
     for (var y = 0; y < m.height(); y ++) {

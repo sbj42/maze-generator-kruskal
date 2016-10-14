@@ -7,6 +7,7 @@
     "lint": "eslint .",
     "test": "mocha test/test-SetGrid && mocha test/test-algorithm && npm run lint",
     "benchmark": "node test/benchmark-SetGrid && node test/benchmark-algorithm",
+    "measure": "node test/measure-algorithm",
     "demo": "node test/cli-demo",
     "webdemo": "node test/web-demo-build"
   },
@@ -32,11 +33,11 @@
     "@sbj42/maze-generator-core": "^0.1.4"
   },
   "peerDependencies": {
-    "@sbj42/maze-generator": "^2.0.2"
+    "@sbj42/maze-generator": "^2.0.3"
   },
   "devDependencies": {
-    "@sbj42/maze-generator": "^2.0.2",
-    "@sbj42/maze-generator-dev": "^0.1.4",
+    "@sbj42/maze-generator": "^2.0.3",
+    "@sbj42/maze-generator-dev": "^0.1.5",
     "eslint": "^3.7.1",
     "random-js": "^1.0.8"
   }
