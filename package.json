@@ -1,6 +1,6 @@
 {
   "name": "@sbj42/maze-generator-kruskal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A maze generator using a randomized Kruskal's algorithm",
   "main": "src/kruskal",
   "scripts": {
