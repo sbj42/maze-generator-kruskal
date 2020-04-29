@@ -1,6 +1,6 @@
 {
   "name": "@sbj42/maze-generator-kruskal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A maze generator using a randomized Kruskal's algorithm",
   "main": "src/kruskal",
   "scripts": {
@@ -29,16 +29,12 @@
     "url": "https://github.com/sbj42/maze-generator-kruskal/issues"
   },
   "homepage": "https://github.com/sbj42/maze-generator-kruskal#readme",
-  "dependencies": {
-    "@sbj42/maze-generator-core": "^0.1.4"
-  },
   "peerDependencies": {
     "@sbj42/maze-generator": "^2.0.3"
   },
   "devDependencies": {
-    "@sbj42/maze-generator": "^2.0.3",
-    "@sbj42/maze-generator-dev": "^0.1.5",
-    "eslint": "^3.7.1",
-    "random-js": "^1.0.8"
+    "@sbj42/maze-generator": "^2.0.6",
+    "@sbj42/maze-generator-dev": "^0.1.7",
+    "eslint": "^6.8.0"
   }
 }
